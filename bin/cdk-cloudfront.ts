@@ -4,7 +4,7 @@ import * as cdk from 'aws-cdk-lib';
 import { CdkCloudfrontStack } from '../lib/cdk-cloudfront';
 
 const app = new cdk.App();
-new CdkCloudfrontStack(app, 'CdkThreeTierServerlessStack', {
+new CdkCloudfrontStack(app, 'CdkCloudfrontStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
